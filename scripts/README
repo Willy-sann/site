@@ -1,0 +1,120 @@
+cosas para hacer de la pagina
+
+- seccion de eventos para notificar sobre skins futuras y colaboraciones
+
+- mas guias sobre heroes para asi tener algo medio hecho para mostrar
+
+- por ahora no tengo wifi ni archivos a manejar para poder trabajar
+
+- Buscar como utilizar el botstrap 5
+
+- practicar el como teclear apropiadamente con este teclado
+
+- necesito arreglar el tema del responsive o si en el hosting esta bien hecho (aunque cree el apartado de camisas asi que no se)
+
+
+*ideas para la pagina de facebook*
+
+- notificar sobre torneos
+- crear plantillas de parche de juego
+- mejores duos o trios para rank
+- alineaciones de squad
+
+
+tengo que vender mas quesillos 
+
+mañana sigo con esa rutina
+
+ver que paso con el señor
+
+atisarle a luis sobre lo de trabajar en el familiar
+
+
+
+crear un script que implemente los personajes del juego de forma automatica mas rapido 
+
+podria hacerlo con un array o un objeto que cree elementos de html de forma automatica 
+
+
+politica del servicio al cliente
+
+comunica a los clientes lo que pueden esperar de su empresa en terminos de servicio. si sus clientes tienen claro lo que pueden esperar, habra menos probabilidades de que se sientan defraudados
+
+las politicas de atencion al cliente no solo son confeccionadas como un documento de lectura, sobre todo es una guia para que la empresa dirija sus acciones para dar una mejor atencion al cliente
+
+esta guia promete capacitar a todos los trabajadores para dar un mejor 
+
+caracteristicas
+
+una politica de atencion al cliente es tambien un codigo de conducta para cuando los empleados deben atender a los clientes
+
+* puede incluir procedimientos para manejar a clientes insatisfechos 
+
+** deben estar escritas para ser seguidas no solo por los representantes de servicio o atencion al cliente, sino por todas aquellos que tengan un contacto directo con los clientes
+
+con estas pautas basicas, su empresa podra redactar una buena politica reforzando los puntos convincentes
+
+* deber saber quien es su cliente: si conoce a su cliente y se enfoca en sus necesidades , conocera sus expectativas
+
+** determinar los atributos del servicio mas importantes para sus clientes: una vez conseguido esto analice cual es la situacion actual de su servicio al cliente: ¿ofrece esto atributos? ¿puede llegar a ofrecerlos?
+
+***debe preocupar ser mejor que la mayoria: evalue a sus competidores y su relacion con los clientes ¿como puede su empresa mejorar en este aspecto?l lo importante es no hacerlo de forma esporadica, sino de forma consistente
+
+**** debe hacer enfasis en los detalles: aprenda a conocer a sus clientes, a detectar si valoran mas los detalles de servicios que los de precio. por ejemplo, ocupese de recordarles que el seguro de su coche esta por vencer o simplemente tenga un detalle el dia de nacimiento de sus hijos
+
+tenga en cuenta 
+
+el buen servicio al cliente debe ser constante por el contrario no lograra la confiaza de parte de sus clientes. una empresa que hoy da un buen servicio, y mañana no, no es confiable
+
+siempre hoy y recogera mañana: la lealtad de un clientes es el mayor activo que una empresa puede tener, y esto solo se logra a traves de un buen producto respaldado con un excelente servicio al cliente.
+
+el objetivo de la politica de atencion al cliente es mucho mas que un documentos, es algo tan Basico como un numero telefonico o una idreccion de correo donde contactar si el cliente desea solucionar algo, y un compendio de procedimientos, acciones de capacitacion, formularios de evaluacion y medidas de control
+
+normas de calidad del servicio 
+
+-.actividad.-
+
+archivos modificados 11/04/2024 
+
+estiloh.css /modifique que tantos elementos se pueden ver en movil
+
+crear algoritmo para dividir por rol
+cuando la gente busque por roll
+
+
+poner logos de x, facebook y instagram y link de vinculacion
+
+se cambian los headers de el index
+
+14/04/2024
+
+se modifico el index para poner mejores articulos
+
+se agrego layout a index y se cambiaron estilos ademas de agregarse loaders a cada pagina
+
+que hacer mañana
+
+- ver que se puede mejorar de index y cambiar el estilo de varios articulos
+- comenzar a diseñar el prototipo de pagina de meta 
+- investigar sobre hostings que no salten alertas de seguridad 
+- investigar temas de cdn para no tener que subir muchos archivos a produccion
+- maquinar un script que me muestre informacion sobre cada heroe que marque en la lista de heroes 
+  - informacion que quiero mostrar 
+        lore
+        estadisticas 
+        dificultad
+        builds 
+        hechizos 
+        emblemas
+        videos recopilatorios 
+        todo eso automatizado
+- para esa tarea tengo que crear una interfaz donde pueda conectar todos los datos dependiendo del heroe que elija
+- tengo que crear un archivo con la informacion de cada heroe por separado en objetos y dependiendo de que heroe se seleccione se redireccione a ese objeto con la informacion
+
+ejemplo de objeto
+
+const infoHeroes = [{nombre: "argus", rol: "combatiente/asesino", lore : "el unico angel masculino producto de un humano y un angel, discriminado por todos sus camaradas mientras luchaba contra el abismo por ser el unico varon y bastardo decidio dejar todo sus deberes atras y dejarse consumir por una espada demoniaca que deja salir su sed de venganza, ahora se la pasa diambulando en por todo el mundo asesinando a todos aquellos que hagan maldades sin importar su raza o excusas.", habilidad1: "datos de habilidad 1" habilidad2: "datos de habilidad 2", habilidad 3: "datos de habilidad 3", estiloDeJuego:"describir el estilo de juego",}]
+
+tambien los recursos graficos se eligiran con el img.src y dando un id a donde debe ser puesto siguiendo esos estilos 
+
+tengo que mejorar que tan grande seran los objetos, entre mas grande peor pero comparado a hacer todo un html por heroe es lo mas factible y con la redaccion de la ia es mas rapido

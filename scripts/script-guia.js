@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const heroName = urlParams.get('name');
 
 // Cargar datos del JSON
-fetch('heroes.json')
+fetch('site/heroes.json')
   .then(response => response.json())
   .then(data => {
     const hero = data.heroes.find(hero => hero.name === heroName);

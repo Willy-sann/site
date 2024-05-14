@@ -1,0 +1,434 @@
+{
+    "heroes": [
+      {
+        "id": 1,
+        "name": "alucard",
+        "rol": "combatiente",
+        "description": "El demonio sediento de sangre",
+        "lore":"<center><div><h1>Historia de Alucard - Mobile Legends</h1></center><p>Alucard es un personaje misterioso y poderoso en el mundo de Mobile Legends. Su historia está envuelta en sombras y tragedia, con un trasfondo de vampirismo y lucha eterna.</p><h2>Orígenes de Alucard</h2><p>Poco se sabe sobre los orígenes de Alucard. Es un ser solitario y enigmático que vaga por el mundo, cazando a aquellos que han caído en la oscuridad y enfrentándose a sus propios demonios internos.</p><h2>La Maldición de Alucard</h2><p>Se rumorea que Alucard fue maldecido hace siglos por un antiguo vampiro, condenándolo a vagar por la eternidad en busca de redención. Esta maldición le otorgó habilidades sobrenaturales, pero también lo condenó a una existencia solitaria y llena de dolor.</p><h2>La Búsqueda de Redención</h2><p>A pesar de su maldición y su naturaleza oscura, Alucard busca redimirse luchando contra las fuerzas del mal y protegiendo a los inocentes. Utiliza su fuerza y habilidades sobrenaturales para enfrentarse a los enemigos de la luz, buscando algún día liberarse de la maldición que lo atormenta.</p><h2>En el Campo de Batalla</h2><p>En Mobile Legends, Alucard es un luchador ágil y letal que utiliza su espada para infligir daño a sus enemigos. Su historia oscura y su lucha eterna lo convierten en un personaje fascinante para los jugadores que buscan desafíos y profundidad en la narrativa del juego.</p></div>",
+        "abilities": {
+
+          "passive": "Persecución",
+          "passiveIMG":"heroes\/imagenes\/habilidades\/alucarpassive.png",
+          "passiveDescription":"Después de usar la habilidad, Alucard podrá lanzarse hacia su objetivo durante el próximo ataque básico, lo que le permitirá infligir daño adicional. Además, esta habilidad te permite obtener el 50% del robo de vida físico después de usar habilidades activas",
+          "passiveVideo":"heroes//videos//alucarpassive.webm",
+
+          "skill1": "RompeTierra",
+          "skill1IMG":"heroes\/imagenes\/habilidades\/alucar1ra.png",
+          "skill1Description":"Alucard salta al área objetivo y corta, infligiendo daño físico a todos los enemigos en el área y relantizando a los enemigos golpeados.",
+          "skill1Video":"heroes/videos/Alucarpassive.webm",
+
+          "skill2": "Barrido",
+          "skill2IMG":"heroes\/imagenes\/habilidades\/alucar2da.png",
+          "skill2Video":"heroes//videos//alucar2da.webm",
+    
+          "skill2Description":"Alucard gira espectacularmente e inflige un gran daño físico a los enemigos que se encuentran en el área de efecto de la habilidad.",
+
+          "ultimate": "Ola divisoria",
+          "ultimateIMG":"heroes\/imagenes\/habilidades\/alucarult.png",
+          "ultimateVideo":"heroes//videos//alucarult.webm",
+          "ultimateDescription":"El héroe absorbe la energía de los enemigos dentro del área, aumentando su daño físico y robo de vida, además de reducir la velocidad de movimiento de los enemigos cercanos en un 40% unos segundos. Durante la duración de la habilidad, Alucard puede lanzar una poderosa ola frente a él, que causará un daño físico significativo al enemigo en su camino y las demás habilidades se podrán usar mas."
+          },
+
+          "skinsHero": {
+            "Cazador de demonios": { "image": "heroes\\imagenes\\skins\\alucard1.webp", "description": "skin básica de Alucard" },
+            "Heroe solitario": { "image": "heroes\\imagenes\\skins\\Alucard2.webp", "description": "segunda skin básica de Alucard, este cambio solo es un cambio de color y ofrece el atributo de +8 de daño físico" },
+            "Infierno ardiente": { "image": "heroes\\imagenes\\skins\\Alucard3.webp", "description": "skin de temporada, se puede conseguir al acumular 250 fragmentos de apariencia y canjearla en la tienda" },
+            "El Exiliado": { "image": "heroes\\imagenes\\skins\\Alucard4.webp", "description": "skin épica limitada, el evento varia según moonton pero su valor oscila dependiendo del evento que la promociones, no es nada barata" },
+            "Vizconde": { "image": "heroes\\imagenes\\skins\\Alucard5.webp", "description": "Skin de Vip, solo se puede obtener comprando el vip que cuesta 300 diamantes y esperar que este disponible en la tienda o con un cofre de apariencia vip ademas de acumular 200 fragmentos raros y canjearla cuando este disponible en la tienda" },
+            "Fantasia romantica": { "image": "heroes\\imagenes\\skins\\alucard6.webp", "description": "skin san Valentin que hace combinación junto con Miya, se obtiene mediante promodiamantes o el dia de san Valentin" },
+            "Hoja obsidiana": { "image": "heroes\\imagenes\\skins\\alucard7.webp", "description": "skin legendaria y una de las mejores, se consigue al completar 200 fragmentos en la rueda mágica y canjearlos por la skin, incluye backeo personalizado solo para la skin" },
+            "Agente del imperio": { "image": "heroes\/imagenes\/skins\/ Alucard8.webp", "description": "se consigue mayormente en el cofre de regalo de fin de año y puede tocar junto con otras skins raras" },
+            "Lightbron - Golpeador": { "image": "heroes\\imagenes\\skins\\alucard9.webp", "description": "Skin del escuadrón Ligtborn que incluyen a fanny, tigreal, granger y harith, tiene un costo de 1089 diamantes sin descuento" },
+            "Obi-Wan Kenobi": { "image": "heroes\/imagenes\/skins\/ Alucard10.webp", "description": "skin de la colaboración star wars donde también se encuentran Argus, Ciclope y kimmy, tendras oportunidad de sacarla en algun evento proximo o que vuelvan a sacar otra skin de colaboración y el evento aparezca denuevo" }
+          },
+          "image": "/imagenes/alucard.webp",
+
+        "buildHero":{ 
+        "build1":{
+            "buildName":"Full daño",
+            "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+            "item2":"heroes\\imagenes\\items\\corrosion-scythe.webp",
+            "item3":"heroes//imagenes//items//demon-hunter-sword-png.webp",
+            "item4":"heroes//imagenes//items//golden-staff-png.webp",
+            "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+            "item6":"heroes\/imagenes\/items\/hunter-strike-png.webp",
+            "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+            "talent1":"heroes//imagenes//talentos//swift-emblem-mlbb.webp",
+            "talent2":"heroes//imagenes//talentos//weapons-master-emblem-mlbb.webp",
+            "talent3":"heroes/imagenes/talentos/quantum-charge-emblem-mlbb.webp",
+            "spell":"heroes\/imagenes\/hechizos\/inspire.webp",
+            "buildDescription":"la build convencional de todo Argus, perfecta para luchar contra enemigos tanques en linea, recomendada para nuevos"
+
+        },
+        "build2":{
+          "buildName":"Full daño",
+          "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+            "item2":"heroes/imagenes/items/windtalker-png.png",
+            "item3":"heroes/imagenes/items/bersekers-fury-png.webp",
+            "item4":"heroes/imagenes/items/haas-claw-png.webp",
+            "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+            "item6":"heroes\/imagenes\/items\/sea-healberd-png.webp",
+
+            "emblem":"heroes/imagenes/emblemas/marksman--emblem.png",
+            "talent1":"heroes/imagenes/talentos/fatal-emblem-mlbb.webp",
+            "talent2":"heroes/imagenes/talentos/weapons-master-emblem-mlbb.webp",
+            "talent3":"heroes/imagenes/talentos/weapons-master-emblem-mlbb.webp",
+
+            "spell":"heroes/imagenes/hechizos/inspire.webp",
+
+          "buildDescription":"build de críticos, en este caso esta mas enfocada en explotar heroes blandos (magos, tiradores, asesinos) de uno o dos básicos, al hacer críticos recargas la pasiva mas rápido, asi que en parte es algo efectiva contra tanques pero no mejor que la trinidad en ese caso es mejor llevarla si el equipo enemigo no tiene mucho aguante."
+
+      },
+      "build3":{
+        "buildName":"Full daño",
+        "item1":"heroes\\imagenes\\items\\blade-of-heptaseas-png.webp",
+        "item2":"heroes\\imagenes\\items\\magic-shoes-png-min.webp",
+        "item3":"heroes//imagenes//items//endless-battle-png.webp",
+        "item4":"heroes//imagenes//items//blade-of-despair-png.webp",
+        "item5":"heroes//imagenes//items//war-axe-png.webp",
+        "item6":"heroes//imagenes//items//malefic-roar-png.webp",
+
+        "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+        "talent1":"heroes//imagenes//talentos//rupture-emblem-mlbb.webp",
+        "talent2":"heroes\/imagenes\/talentos\/master-assassin-emblem-mlbb.webp",
+        "talent3":"heroes//imagenes//talentos//killing-spree-emblem-mlbb.webp",
+
+        "spell":"heroes//imagenes//hechizos//bloody-retribution.webp",
+        
+        "buildDescription":"se asegura la ulti cada 14 segundos ademas de velocidad de movimiento para rotaciones rápidas a otras lineas,cabe destacar que esta build no saca todo el daño del heroe ya que es una build dedicada solo al PUSH Y SUPERVIVENCIA asi que no es recomendable si eres parte del daño principal del equipo."
+
+    }
+  },
+
+      
+"combos":{
+  "combo 1": { 
+  "combination": "1-3-2",
+  "comboVideo": "heroes\/videos\/Alucardcombo1.webm",
+  "comboDescription":"se prioriza acercarse al enemigo para asi poder marcar a la mayoría de heroes disponibles y aprovechar la regeneración de los enemigos marcados y luego comenzar a atacar con tu equipo, no aplicar si hay heroes que te puedan aturdir(ej: franco, tigreal etc.) o si el enemigo todavía tiene recursos"},
+
+  "combo 2": { 
+  "combination": "3-2-1",
+  "comboVideo": "heroes\/videos\/Alucardcombo2.webm",
+  "comboDescription":"se usa mas que todo a la hora de campear, se marca al enemigo de una vez para aumentar la regeneracion ademas de que se intercala entre 1 y 2 para hacer daño y perseguirlo, no hacerlo contra tanques o combatientes de aguante, se usar para acabar con heroes blandos pero asegurate que tu daño sea el suficiente"},
+
+  "recomendaciones": { 
+  "combination": "se inteligente y osado",
+  "comboVideo": "heroes//videos//alucardcombo3.webm",
+  "comboDescription":"este jungla es para tener que hacer un early limpio y tener mente fría a la hora de atacar, nunca entres sin un plan, este heroe es muy contrarrestado por el cc asi que cada entrada que hagas para atacar debe ser perfecta en este tipo de heroes no se tolera errores ni cobardía"}
+},
+  "counter":"cualquier heroe que tenga un cc instantáneo que evite su capacidad de hacer daño, ya que alucard tiene supervivencia mientras le haga daño a la mayoria de heroes posibles mientras esta peleando lo que heroes como franco, kaja, tigreal, minotauro, akai, belerick y cualquier otro tanque lo puede contrarrestar, en los casos donde el equipo enemigo sea pesado se recomienda elegir otro heroe ya que no tendria oportunidad para finalizar, si quieres usar alucard te recomiendo a que esperes que el tanque enemigo inicie y si quieres contrarrestarlo debes guardar tus recuros (habilidades) para que cuando entre no pueda hacer mucho.",
+  
+  "gameplayHero":{
+    "trucos de alucard": { 
+  "video": "https://www.youtube.com/embed/ioU5g1E4p2I?si=4jVWM4oj5K5ulQVY",
+  "explicacion":"este video esta en ingles pero si prestas atención al video te das cuenta de los diferentes aspectos que da a entender Dracula en el video, entre algunos esta el manejarlo con cuidado en early debido a su bajo daño a los enemigos, aprender a manejar las habilidades y el ataque basico mejorado para perseguir y escapar ademas de aprovechar cada oportunidad que se presente, esto  se demuestra en su habilidad de juego, el como carga hacia el enemigo y sin dejarse llevar finaliza ademas de salir con vida, esto es lo que se llamaría conocer tus capacidades y tus limites."
+},
+"mira lo que puede hacer en buenas manos": { 
+  "video": "https://www.youtube.com/embed/mSWZUwh1qL4?si=hLS0YiSHaOzyjqbW",
+  "explicacion":"aqui es un gameplay del mismo Dracula usando alucard en rank, si te das cuentas los enemigos son heroes blandos y su estrategia se basa en cargar con todo cada vez que ve una oportunidad de kill sin dejar de lado y tomando en cuenta tambien todas los recursos qur tiene alucard a la hora de pelear"
+
+    
+  }
+
+}
+      },
+  
+
+
+      {
+        "id": 2,
+        "name": "Argus",
+        "rol": "combatiente",
+        "description": "el unico angel oscuro",
+        "lore": "<center><div><h1>Historia de Argus - Mobile Legends</h1></center><p>Argus es un guerrero legendario en el mundo de Mobile Legends. Su historia es una mezcla de tragedia, redención y poder sobrenatural.</p><h2>Orígenes de Argus</h2><p>Se cuenta que Argus era un poderoso general en un reino antiguo. Su habilidad en la batalla era inigualable, y lideraba ejércitos a la victoria una y otra vez. Sin embargo, su éxito despertó la envidia y la codicia en los corazones de otros.</p><h2>La Caída de Argus</h2><p>Una noche oscura, mientras Argus descansaba después de una gran victoria, fue traicionado por aquellos en quienes confiaba. Fue atacado y gravemente herido, pero en su agonía, hizo un pacto desesperado con fuerzas oscuras para obtener el poder necesario para vengarse de sus enemigos.</p><h2>El Pacto Oscuro</h2><p>Argus fue transformado por el poder oscuro que había invocado. Sus heridas sanaron, pero su alma quedó marcada para siempre. Ahora, era un ser mitad humano, mitad demonio, con sed de venganza y una espada imbuida con el mismo poder oscuro que lo había corrompido.</p><h2>La Búsqueda de Redención</h2><p>A pesar de su nueva forma y sus habilidades sobrenaturales, Argus anhelaba redimirse y romper el pacto oscuro que lo ataba. Decidió usar sus habilidades para luchar contra la injusticia y proteger a los inocentes, buscando así recuperar su humanidad perdida.</p><h2>En el Campo de Batalla</h2><p>En Mobile Legends, Argus es un guerrero formidable que utiliza su espada maldita para infligir daño a sus enemigos. Su historia de redención y su lucha contra las fuerzas oscuras lo convierten en un personaje intrigante para los jugadores que buscan desafíos y profundidad en la narrativa del juego.</p></div>",
+
+        "abilities": {
+
+          "passive": "espada belicista",
+          "passiveIMG":"heroes\/imagenes\/habilidades\/arguspassive.webp",
+          "passiveDescription":"Argus llena una barra mientras esta en el campo que al cargarse ofrece un ataque básico mejorado que ignora el 40% de defensa física del enemigo, esta se llena automáticamente y con ataques básicos, los ataques básicos críticos le hacen llenar la barra el doble",
+          "passiveVideo":"heroes//videos//Arguspassive.webm",
+
+          "skill1": "Agarre Demoniaco",
+          "skill1IMG":"heroes\/imagenes\/habilidades\/argus1ra.webp",
+          "skill1Description":"Argus extiende una mano que sirve para enganchar a un enemigo y llevarte hacia el o también moverse hacia donde la lanza, si al utilizas otra vez Argus hace otro dash hacia la dirección que marques",
+          "skill1Video":"heroes//videos//Argus1ra.webm",
+
+          "skill2": "Espada Meteórica",
+          "skill2IMG":"heroes\/imagenes\/habilidades\/argus2da.webp",
+          "skill2Video":"heroes//videos//argus2da.webm",
+          "skill2Description":"Argus hace una estocada con su espada que inflige daño físico al enemigo y lo marca con Maldición, los enemigos marcados dejaran un rastro mientras se mueven que si Argus camina sobre el lo hará mucho mas rápido para ir por el enemigos y los ataques básicos a heroes marcados llenaran la pasiva el doble.",
+
+          "ultimate": "Maldad Eterna",
+          "ultimateIMG":"heroes\/imagenes\/habilidades\/argusult.webp",
+          "ultimateVideo":"heroes//videos//argusult.webm",
+          "ultimateDescription":"Argus se libera de todo control (excepto la supresión) para hacerse inmortal por 4 segundos, mientras esta en estado inmortal la pasiva se recarga mas rápido ademas de que es inmune al daño (pero no al control) y el daño que inflige se convertirá en vida al terminar la ulti, ademas de que si se encuentra bajo torre en este estado cuando termino el daño de torre también se reiniciara."
+          },
+
+          "skinsHero": {
+            "Angel Oscuro": { "image": "heroes/imagenes/skins/Argus1.jpg", "description": "skin básica de Argus" },
+            "Luz del Amanecer": { "image": "heroes//imagenes//skins//Argus2.jpg", "description": "segunda skin básica de Argus, este cambio solo es un cambio de color y ofrece el atributo de +8 de daño físico, un dato curioso de esta es que muestra como era argus antes de ser corrompido por la espada meteorica, dandole un aspecto de angel" },
+            "Draconico Oscuro": { "image": "heroes//imagenes//skins//Argus3.jpg", "description": "Skin de Vip, solo se puede obtener comprando el vip que cuesta 300 diamantes y esperar que este disponible en la tienda o con un cofre de apariencia vip ademas de acumular 200 fragmentos raros y canjearla cuando este disponible en la tienda" },
+            "Catastrofe": { "image": "heroes//imagenes//skins//Argus4.jpg", "description": "skin elite de Argus, tiene un costo de mas de 500 diamantes" },
+            "Darth Vader": { "image": "heroes//imagenes//skins//Argus5.jpg", "description": "skin de la colaboración star wars donde también se encuentran Alucard, Ciclope y kimmy, tendras oportunidad de sacarla en algún evento proximo o que vuelvan a sacar otra skin de colaboración y el evento aparezca denuevo" },
+            "Pesadilla Alada": { "image": "heroes//imagenes//skins//Argus6.jpg", "description": "skin de temporada, se puede conseguir al acumular 250 fragmentos de apariencia y canjearla en la tienda" }
+},
+          "guideHero":"url",
+          "gameplaHero":"url",
+
+          
+        "image": "/imagenes/argus.webp",
+        "buildHero":{ 
+          "build1":{
+              "buildName":"Trinidad con penetracion",
+              "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+              "item2":"heroes\\imagenes\\items\\corrosion-scythe.webp",
+              "item3":"heroes//imagenes//items//demon-hunter-sword-png.webp",
+              "item4":"heroes//imagenes//items//golden-staff-png.webp",
+              "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+              "item6":"heroes\/imagenes\/items\/hunter-strike-png.webp",
+              "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+              "talent1":"heroes//imagenes//talentos//swift-emblem-mlbb.webp",
+              "talent2":"heroes//imagenes//talentos//weapons-master-emblem-mlbb.webp",
+              "talent3":"heroes/imagenes/talentos/quantum-charge-emblem-mlbb.webp",
+              "spell":"heroes\/imagenes\/hechizos\/inspire.webp",
+              "buildDescription":"la build convencional de todo Argus, perfecta para luchar contra enemigos tanques en linea, recomendada para nuevos"
+  
+          },
+          "build2":{
+            "buildName":"Critico",
+            "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+              "item2":"heroes/imagenes/items/windtalker-png.png",
+              "item3":"heroes/imagenes/items/bersekers-fury-png.webp",
+              "item4":"heroes/imagenes/items/haas-claw-png.webp",
+              "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+              "item6":"heroes\/imagenes\/items\/sea-healberd-png.webp",
+  
+              "emblem":"heroes/imagenes/emblemas/marksman--emblem.png",
+              "talent1":"heroes/imagenes/talentos/fatal-emblem-mlbb.webp",
+              "talent2":"heroes/imagenes/talentos/weapons-master-emblem-mlbb.webp",
+              "talent3":"heroes/imagenes/talentos/quantum-charge-emblem-mlbb.webp",
+  
+              "spell":"heroes/imagenes/hechizos/inspire.webp",
+  
+            "buildDescription":"build de críticos, en este caso esta mas enfocada en explotar heroes blandos (magos, tiradores, asesinos) de uno o dos básicos, al hacer críticos recargas la pasiva mas rápido, asi que en parte es algo efectiva contra tanques pero no mejor que la trinidad en ese caso es mejor llevarla si el equipo enemigo no tiene mucho aguante."
+  
+        },
+        "build3":{
+          "buildName":"Sin botas (se necesita experiencia)",
+          "item1":"heroes/imagenes/items/corrosion-scythe.webp",
+          "item2":"heroes/imagenes/items/windtalker-png.png",
+          "item3":"heroes/imagenes/items/haas-claw-png.webp",
+          "item4":"heroes/imagenes/items/sea-healberd-png.webp",
+          "item5":"heroes/imagenes/items/bersekers-fury-png.webp",
+          "item6":"heroes/imagenes/items/blade-of-despair-png.webp",
+  
+          "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+          "talent1":"heroes/imagenes/talentos/swift-emblem-mlbb.webp",
+          "talent2":"heroes/imagenes/talentos/bargain-hunter-emblem-mlbb.webp",
+          "talent3":"heroes/imagenes/talentos/weakness-finder-emblem-mlbb.webp",
+  
+          "spell":"heroes//imagenes//hechizos//inspire.webp",
+          
+          "buildDescription":"al no usar botas el daño de early aumenta ademas de que esto hace que argus sea muy fuerte pero muy lento, se necesita mucha experiencia para rendir con esta build"
+  
+      }
+    },
+  
+
+      
+"combos":{
+
+  "combo 1": { 
+  "combination": "1-2-básico-1",
+  "comboVideo": "heroes\/videos\/arguscombo1.webm",
+  "comboDescription":"usado para la fase de lineas, entras agarrando al enemigo con 1, le das una estocada con 2, y le das ataques basicos, si ves que el enemigo es muy peligroso pelearle en early tiras al segunda carga de la primera hacia tu torre o hacia el enemigo si intenta escapar a poca vida,en caso de que el enemigo este bajo de vida, toma en cuenta mucho las circunstancias en las que estes y del enemigo a pelearle"
+},
+
+  "combo 2": { 
+  "combination": "2-inspirar-basicos-1",
+  "comboVideo": "heroes\/videos\/arguscombo2.webm",
+  "comboDescription":"se utiliza en arbustos para asi emboscar al enemigo, si se usa bien al principio de la partida dejaras al enemigo muy bajo de vida de modo que haras que el enemigo se retire y juegue seguro, se puede utilizar la primera para escapar o para perseguir al enemigo si esta a poca vida"},
+
+  "recomendaciones": { 
+  "combination": "el cc y entrar si equipo es tu mayor enemigo",
+  "comboVideo": "heroes//videos//arguscombo3.webm",
+  "comboDescription":"Argus es un muy buen heroe cuando hay heroes blandos en el quipo enemigo sin embargo tu mayor desventaja es que tengan aun recursos para detenerte, aprovecha cuando lanzar ulti para librarte del cc y evita entrar solo si no tienes compañeros cerca, aprende a medir de que eres capaz en la partida con este heroe"
+}
+
+},
+  "counter":"en late argus 1vs1 no tendria counter ya que su inmortalidad es muy dificil de contrarestar, sim embargo el que el enemigo juegue en equipo y que el combatiente enemigo se equipe Dominio del hielo (cortacuras) y armadura afilada le sera un verdadero reto ademas de los tanques con mucho cc que eviten que argus se acerque a los enemigos blandos (akai, minotauro, tigreal ect.)",
+  
+  "gameplayHero":{
+    "Build de top global y modo de juego con esta": { 
+  "video": "https://www.youtube.com/embed/9IHPgR5fUes?si=azNJfVJkjN0WarTY",
+  "explicacion":"gracias a los cambios del parche, los diferentes ajustes a argus han hecho que su vieja build de cuando se lanzo regrese, aqui se puede ver como un ejemplo de un ex top global argus utiliza la build del actual top global y gana aplicando su experiencia y saber cuando entrar y salir"
+},
+"Mira lo que puede hacer en buenas manos": { 
+  "video": "https://www.youtube.com/embed/47C20yecEPY?si=-cl5P-AiX8Ib71Bb",
+  "explicacion":"un main argus que lo esta usando activamente muestra lo que es capaz argus si se sabe llevar ademas de controlar sus daños"
+
+  },
+
+  "Estrategia para ganar con argus": { 
+    "video": "https://www.youtube.com/embed/JOpXCmxGqbU?si=6NWkiwPHs6sURnFg",
+    "explicacion":"una estrategia para ganar con argus no solo con daño sino con una mentalidad que se enfoca en controlar al enemigo y provocarlo para que falle ademas de jugando de forma segura contra enemigos que son tu counter natural a pesar de tener un equipo pesimista"
+  
+      
+    }
+
+}
+      },
+      
+      {
+        "id": 3,
+        "name": "Xavier",
+        "rol": "mago",
+        "description": "Mago de la luz abandonada",
+        "lore":"",
+        "abilities": {
+
+          "passive": "espada belicista",
+          "passiveIMG":"heroes\/imagenes\/habilidades\/arguspassive.webp",
+          "passiveDescription":"Argus llena una barra mientras esta en el campo que al cargarse ofrece un ataque básico mejorado que ignora el 40% de defensa física del enemigo, esta se llena automáticamente y con ataques básicos, los ataques básicos críticos le hacen llenar la barra el doble",
+          "passiveVideo":"heroes//videos//Arguspassive.webm",
+
+          "skill1": "Agarre Demoniaco",
+          "skill1IMG":"heroes\/imagenes\/habilidades\/argus1ra.webp",
+          "skill1Description":"Argus extiende una mano que sirve para enganchar a un enemigo y llevarte hacia el o también moverse hacia donde la lanza, si al utilizas otra vez Argus hace otro dash hacia la dirección que marques",
+          "skill1Video":"heroes//videos//Argus1ra.webm",
+
+          "skill2": "Espada Meteórica",
+          "skill2IMG":"heroes\/imagenes\/habilidades\/argus2da.webp",
+          "skill2Video":"heroes//videos//argus2da.webm",
+          "skill2Description":"Argus hace una estocada con su espada que inflige daño físico al enemigo y lo marca con Maldición, los enemigos marcados dejaran un rastro mientras se mueven que si Argus camina sobre el lo hará mucho mas rápido para ir por el enemigos y los ataques básicos a heroes marcados llenaran la pasiva el doble.",
+
+          "ultimate": "Maldad Eterna",
+          "ultimateIMG":"heroes\/imagenes\/habilidades\/argusult.webp",
+          "ultimateVideo":"heroes//videos//argusult.webm",
+          "ultimateDescription":"Argus se libera de todo control (excepto la supresión) para hacerse inmortal por 4 segundos, mientras esta en estado inmortal la pasiva se recarga mas rápido ademas de que es inmune al daño (pero no al control) y el daño que inflige se convertirá en vida al terminar la ulti, ademas de que si se encuentra bajo torre en este estado cuando termino el daño de torre también se reiniciara."
+          },
+
+          "skinsHero": {
+            "Angel Oscuro": { "image": "heroes/imagenes/skins/Argus1.jpg", "description": "skin básica de Argus" },
+            "Luz del Amanecer": { "image": "heroes//imagenes//skins//Argus2.jpg", "description": "segunda skin básica de Argus, este cambio solo es un cambio de color y ofrece el atributo de +8 de daño físico, un dato curioso de esta es que muestra como era argus antes de ser corrompido por la espada meteorica, dandole un aspecto de angel" },
+            "Draconico Oscuro": { "image": "heroes//imagenes//skins//Argus3.jpg", "description": "Skin de Vip, solo se puede obtener comprando el vip que cuesta 300 diamantes y esperar que este disponible en la tienda o con un cofre de apariencia vip ademas de acumular 200 fragmentos raros y canjearla cuando este disponible en la tienda" },
+            "Catastrofe": { "image": "heroes//imagenes//skins//Argus4.jpg", "description": "skin elite de Argus, tiene un costo de mas de 500 diamantes" },
+            "Darth Vader": { "image": "heroes//imagenes//skins//Argus5.jpg", "description": "skin de la colaboración star wars donde también se encuentran Alucard, Ciclope y kimmy, tendras oportunidad de sacarla en algún evento proximo o que vuelvan a sacar otra skin de colaboración y el evento aparezca denuevo" },
+            "Pesadilla Alada": { "image": "heroes//imagenes//skins//Argus6.jpg", "description": "skin de temporada, se puede conseguir al acumular 250 fragmentos de apariencia y canjearla en la tienda" }
+},
+          "guideHero":"url",
+          "gameplaHero":"url",
+
+          
+        "image": "/imagenes/argus.webp",
+        "buildHero":{ 
+          "build1":{
+              "buildName":"Trinidad con penetracion",
+              "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+              "item2":"heroes\\imagenes\\items\\corrosion-scythe.webp",
+              "item3":"heroes//imagenes//items//demon-hunter-sword-png.webp",
+              "item4":"heroes//imagenes//items//golden-staff-png.webp",
+              "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+              "item6":"heroes\/imagenes\/items\/hunter-strike-png.webp",
+              "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+              "talent1":"heroes//imagenes//talentos//swift-emblem-mlbb.webp",
+              "talent2":"heroes//imagenes//talentos//weapons-master-emblem-mlbb.webp",
+              "talent3":"heroes/imagenes/talentos/quantum-charge-emblem-mlbb.webp",
+              "spell":"heroes\/imagenes\/hechizos\/inspire.webp",
+              "buildDescription":"la build convencional de todo Argus, perfecta para luchar contra enemigos tanques en linea, recomendada para nuevos"
+  
+          },
+          "build2":{
+            "buildName":"Critico",
+            "item1":"heroes\\imagenes\\items\\tough-boots-png-min.webp",
+              "item2":"heroes/imagenes/items/windtalker-png.png",
+              "item3":"heroes/imagenes/items/bersekers-fury-png.webp",
+              "item4":"heroes/imagenes/items/haas-claw-png.webp",
+              "item5":"heroes//imagenes//items//malefic-roar-png.webp",
+              "item6":"heroes\/imagenes\/items\/sea-healberd-png.webp",
+  
+              "emblem":"heroes/imagenes/emblemas/marksman--emblem.png",
+              "talent1":"heroes/imagenes/talentos/fatal-emblem-mlbb.webp",
+              "talent2":"heroes/imagenes/talentos/weapons-master-emblem-mlbb.webp",
+              "talent3":"heroes/imagenes/talentos/quantum-charge-emblem-mlbb.webp",
+  
+              "spell":"heroes/imagenes/hechizos/inspire.webp",
+  
+            "buildDescription":"build de críticos, en este caso esta mas enfocada en explotar heroes blandos (magos, tiradores, asesinos) de uno o dos básicos, al hacer críticos recargas la pasiva mas rápido, asi que en parte es algo efectiva contra tanques pero no mejor que la trinidad en ese caso es mejor llevarla si el equipo enemigo no tiene mucho aguante."
+  
+        },
+        "build3":{
+          "buildName":"Sin botas (se necesita experiencia)",
+          "item1":"heroes/imagenes/items/corrosion-scythe.webp",
+          "item2":"heroes/imagenes/items/windtalker-png.png",
+          "item3":"heroes/imagenes/items/haas-claw-png.webp",
+          "item4":"heroes/imagenes/items/sea-healberd-png.webp",
+          "item5":"heroes/imagenes/items/bersekers-fury-png.webp",
+          "item6":"heroes/imagenes/items/blade-of-despair-png.webp",
+  
+          "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+          "talent1":"heroes/imagenes/talentos/swift-emblem-mlbb.webp",
+          "talent2":"heroes/imagenes/talentos/bargain-hunter-emblem-mlbb.webp",
+          "talent3":"heroes/imagenes/talentos/weakness-finder-emblem-mlbb.webp",
+  
+          "spell":"heroes//imagenes//hechizos//inspire.webp",
+          
+          "buildDescription":"al no usar botas el daño de early aumenta ademas de que esto hace que argus sea muy fuerte pero muy lento, se necesita mucha experiencia para rendir con esta build"
+  
+      }
+    },
+  
+
+      
+"combos":{
+
+  "combo 1": { 
+  "combination": "1-2-básico-1",
+  "comboVideo": "heroes\/videos\/arguscombo1.webm",
+  "comboDescription":"usado para la fase de lineas, entras agarrando al enemigo con 1, le das una estocada con 2, y le das ataques basicos, si ves que el enemigo es muy peligroso pelearle en early tiras al segunda carga de la primera hacia tu torre o hacia el enemigo si intenta escapar a poca vida,en caso de que el enemigo este bajo de vida, toma en cuenta mucho las circunstancias en las que estes y del enemigo a pelearle"
+},
+
+  "combo 2": { 
+  "combination": "2-inspirar-basicos-1",
+  "comboVideo": "heroes\/videos\/arguscombo2.webm",
+  "comboDescription":"se utiliza en arbustos para asi emboscar al enemigo, si se usa bien al principio de la partida dejaras al enemigo muy bajo de vida de modo que haras que el enemigo se retire y juegue seguro, se puede utilizar la primera para escapar o para perseguir al enemigo si esta a poca vida"},
+
+  "recomendaciones": { 
+  "combination": "el cc y entrar si equipo es tu mayor enemigo",
+  "comboVideo": "heroes//videos//arguscombo3.webm",
+  "comboDescription":"Argus es un muy buen heroe cuando hay heroes blandos en el quipo enemigo sin embargo tu mayor desventaja es que tengan aun recursos para detenerte, aprovecha cuando lanzar ulti para librarte del cc y evita entrar solo si no tienes compañeros cerca, aprende a medir de que eres capaz en la partida con este heroe"
+}
+
+},
+  "counter":"en late argus 1vs1 no tendria counter ya que su inmortalidad es muy dificil de contrarestar, sim embargo el que el enemigo juegue en equipo y que el combatiente enemigo se equipe Dominio del hielo (cortacuras) y armadura afilada le sera un verdadero reto ademas de los tanques con mucho cc que eviten que argus se acerque a los enemigos blandos (akai, minotauro, tigreal ect.)",
+  
+  "gameplayHero":{
+    "Build de top global y modo de juego con esta": { 
+  "video": "https://www.youtube.com/embed/9IHPgR5fUes?si=azNJfVJkjN0WarTY",
+  "explicacion":"gracias a los cambios del parche, los diferentes ajustes a argus han hecho que su vieja build de cuando se lanzo regrese, aqui se puede ver como un ejemplo de un ex top global argus utiliza la build del actual top global y gana aplicando su experiencia y saber cuando entrar y salir"
+},
+"Mira lo que puede hacer en buenas manos": { 
+  "video": "https://www.youtube.com/embed/47C20yecEPY?si=-cl5P-AiX8Ib71Bb",
+  "explicacion":"un main argus que lo esta usando activamente muestra lo que es capaz argus si se sabe llevar ademas de controlar sus daños"
+
+  },
+
+  "Estrategia para ganar con argus": { 
+    "video": "https://www.youtube.com/embed/JOpXCmxGqbU?si=6NWkiwPHs6sURnFg",
+    "explicacion":"una estrategia para ganar con argus no solo con daño sino con una mentalidad que se enfoca en controlar al enemigo y provocarlo para que falle ademas de jugando de forma segura contra enemigos que son tu counter natural a pesar de tener un equipo pesimista"
+  
+      
+    }
+
+}
+      }
+      
+      
+      
+      
+      
+      
+      ]}

@@ -1,0 +1,56 @@
+"build1":{
+          "build1Name":"Full Daño",
+            "item1":"heroes\\imagenes\\items\\tough-boots-png-min.png",
+            "item2":"heroes\\imagenes\\items\\hunter-strike-png.png",
+            "item3":"heroes//imagenes//items//endless-battle-png.png",
+            "item4":"heroes//imagenes//items//blade-of-despair-png.png",
+            "item5":"heroes//imagenes//items//malefic-roar-png.png",
+            "item6":"heroes\/imagenes\/items\/rose-gold-meteor-png.png",
+            "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+            "talent1":"heroes//imagenes//talentos//rupture-emblem-mlbb.png",
+            "talent2":"heroes//imagenes//talentos//festival-of-blood-emblem-mlbb.png",
+            "talent3":"heroes//imagenes//talentos//killing-spree-emblem-mlbb.png",
+            "spell":"heroes\/imagenes\/hechizos\/ice-retribution-png.png",
+            "buildDescription":"se especializa en daño ademas de aguante en situacion de combates largos donde se enfrente contra enemigos de alto daño a distancia"
+
+        },
+        "build2":{
+          "build2Name":"Cortacuras",
+          "item1":"heroes\\imagenes\\items\\tough-boots-png-min.png",
+            "item2":"heroes\\imagenes\\items\\hunter-strike-png.png",
+            "item3":"heroes//imagenes//items//endless-battle-png.png",
+            "item4":"heroes//imagenes//items//blade-of-despair-png.png",
+            "item5":"heroes//imagenes//items//malefic-roar-png.png",
+            "item6":"heroes\/imagenes\/items\/sea-healberd-png.png",
+
+            "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+            "talent1":"heroes//imagenes//talentos//rupture-emblem-mlbb.png",
+            "talent2":"heroes\/imagenes\/talentos\/master-assassin-emblem-mlbb.png",
+            "talent3":"heroes//imagenes//talentos//killing-spree-emblem-mlbb.png",
+
+            "spell":"heroes\/imagenes\/hechizos\/ice-retribution-png.png",
+
+          "buildDescription":"build convencional para jungla pero esta incluye el uso de corta curas en caso de heroes de regeneración(priorice el cortacura dependiendo del enemigo de regeneración, si es un Estes comprarlo de primer item), al entrar se tiene que hacer la mayor cantidad de daño posible, se recomiendo entrar en el momento preciso ya que vas a tener muy poca durabilidad"
+
+      },
+      "build3":{
+        "build3Name":"Oneshots",
+        "item1":"heroes\\imagenes\\items\\blade-of-heptaseas-png.png",
+        "item2":"heroes\\imagenes\\items\\magic-shoes-png-min.png",
+        "item3":"heroes//imagenes//items//endless-battle-png.png",
+        "item4":"heroes//imagenes//items//blade-of-despair-png.png",
+        "item5":"heroes//imagenes//items//war-axe-png.png",
+        "item6":"heroes//imagenes//items//malefic-roar-png.png",
+
+        "emblem":"heroes//imagenes//emblemas//assassin-emblem.png",
+        "talent1":"heroes//imagenes//talentos//rupture-emblem-mlbb.png",
+        "talent2":"heroes\/imagenes\/talentos\/master-assassin-emblem-mlbb.png",
+        "talent3":"heroes//imagenes//talentos//killing-spree-emblem-mlbb.png",
+
+        "spell":"heroes\/imagenes\/hechizos\/bloody-retribution-png.png",
+        
+        "buildDescription":"para entrar y hacer oneshots a enemigos blandos, use la retribución sangrienta para tener un mínimo de regeneración y no es recomendable para enemigos tanques"
+
+    },
+
+    

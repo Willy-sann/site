@@ -116,7 +116,7 @@
             color: hsl(214, 96%, 51%);
             display: flex;
             justify-content:space-between;
-            background-image: url('/recursos graficos/fondoindex.jpg');
+            background-image: url('recursos graficos/fondoindex.jpg');
             background-size: cover;
             -webkit-backdrop-filter: blur(2em);
              backdrop-filter: blur(2em);
